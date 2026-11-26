@@ -1,0 +1,34 @@
+
+# Credenciais do OpenStack
+*openrc*
+clouds.yaml
+secure.yaml
+
+# Chaves SSH e certificados privados
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Configurações locais do Kubernetes
+.kube/
+.minikube/
+kubeconfig
+
+# Arquivos temporários
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
